@@ -1,0 +1,93 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: black;
+  color: lime; 
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+}
+
+button {
+  padding: 7px;
+  border-radius: 7px;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+#button1 {
+    background:green
+}
+
+#button1:active, #button1.lit {
+    background-image: url('https://cdn.glitch.global/6aaa4d3f-d719-45b2-875b-699c44348931/pride%20flag%202.png?v=1648826795555');
+}
+
+#button2 {
+    background: lightblue;
+}
+
+#button2:active, #button2.lit {
+    background-image: url('https://cdn.glitch.global/6aaa4d3f-d719-45b2-875b-699c44348931/arora.jpg?v=1648827110504');
+
+}
+
+#button3 {
+    background: pink;
+}
+
+#button3:active, #button3.lit {
+    background-image: url('https://cdn.glitch.global/6aaa4d3f-d719-45b2-875b-699c44348931/nemo%20.jpg?v=1648827120851');
+}
+
+#button4 {
+    background: lightyellow;
+}
+
+#button4:active, #button4.lit {
+    background-image: url('https://cdn.glitch.global/6aaa4d3f-d719-45b2-875b-699c44348931/nrbula.jpg?v=1648827137187');
+}
+
+#button5 {
+    background: lightsalmon;
+}
+
+#button5:active, #button5.lit {
+    background-image: url('https://cdn.glitch.global/6aaa4d3f-d719-45b2-875b-699c44348931/coding.jpg?v=1648827195073');
+}
+
+#button6 {
+    background: hotpink;
+}
+
+#button6:active, #button6.lit {
+    background-image: url('https://cdn.glitch.global/6aaa4d3f-d719-45b2-875b-699c44348931/codepath.png?v=1648827205033');
+}
+.hidden {
+  display: none;
+}
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
